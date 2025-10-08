@@ -1,0 +1,3 @@
+[submodule "Assets/BallaScripts"]
+	path = Assets/BallaScripts
+	url = https://github.com/BallaGames/BallaScripts
