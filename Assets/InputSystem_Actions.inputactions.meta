@@ -11,4 +11,4 @@ ScriptedImporter:
   generateWrapperCode: 1
   wrapperCodePath: Assets/Generated/CS_InputActions.cs
   wrapperClassName: CS_Actions
-  wrapperCodeNamespace: Lunar.Input
+  wrapperCodeNamespace: Balla.Input
