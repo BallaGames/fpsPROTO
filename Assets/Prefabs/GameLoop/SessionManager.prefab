@@ -88,7 +88,7 @@ MonoBehaviour:
   projectileLayermask:
     serializedVersion: 2
     m_Bits: 1
-  fireFromMuzzle: 0
+  fireFromMuzzle: 1
   projectileLerpSpeed: 25
   maxHits: 8
   projectilePrefab: {fileID: 7487380531173577581, guid: 402d820f7e352144a80b88bcc5cec776, type: 3}

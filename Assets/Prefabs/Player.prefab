@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 4315058328011835928}
   - component: {fileID: 455495094027409589}
   m_Layer: 0
-  m_Name: PewPew
+  m_Name: GrenadeLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -681,8 +681,8 @@ MonoBehaviour:
   ammunition: 0
   ammoPerAttack: 0
   muzzle: {fileID: 2511197524660022789}
-  roundsPerMinute: 600
-  timeBetweenRounds: 0.1
+  roundsPerMinute: 120
+  timeBetweenRounds: 0.5
   fireTimeIncrement: 10
   canAutoFire: 0
   usesBurstFire: 0

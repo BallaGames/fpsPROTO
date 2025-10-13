@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b64cc0cd9a604f8bd5999e1da9a10, type: 3}
+  m_Name: GrenadeLauncherData
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.ProjectileData
+  projectilePrefab: {fileID: 7487380531173577581, guid: 402d820f7e352144a80b88bcc5cec776, type: 3}
+  projectileID: 0
+  projectileSpeed: 15
+  gravityMultiplier: 1
+  maxDamage: 50
+  minDamage: 50
+  damageOverLife:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxLifetime: 8
+  drag: 0.05
+  radius: 0.005
+  cannotBounceOnEntity: 0
+  maxBounces: 0
+  bounciness: 0
+  explosionData: {fileID: 0}
+  vfxAsset: {fileID: 0}
+  projectileMesh: {fileID: 0}
+  meshMaterial: {fileID: 0}
+  meshScale: {x: 0, y: 0, z: 0}
+  meshPos: {x: 0, y: 0, z: 0}
+  meshRotation: {x: 0, y: 0, z: 0}
