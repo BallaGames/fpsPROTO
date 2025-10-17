@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5701384843779469037}
   - component: {fileID: 9079140826486288078}
   - component: {fileID: 4631730242350418686}
+  - component: {fileID: 4050919189220583302}
   m_Layer: 0
   m_Name: SessionManager
   m_TagString: Untagged
@@ -91,9 +92,29 @@ MonoBehaviour:
   fireFromMuzzle: 1
   projectileLerpSpeed: 25
   maxHits: 8
-  projectilePrefab: {fileID: 7487380531173577581, guid: 402d820f7e352144a80b88bcc5cec776, type: 3}
   startProjectiles: 100
   projectilesInChunk: 25
   projectileData:
   - {fileID: 11400000, guid: 7bdea89f3d6e1dc469740c4d32789c7f, type: 2}
-  projIndices: 
+--- !u!114 &4050919189220583302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790527395822126116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1644fe358a259d04081936972066c774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.Core.ExplosionManager
+  ShowTopMostFoldoutHeaderGroup: 1
+  explosions:
+  - {fileID: 11400000, guid: 02a6c65ba6309ea428e557877c382878, type: 2}
+  checkMask:
+    serializedVersion: 2
+    m_Bits: 1
+  obstructMask:
+    serializedVersion: 2
+    m_Bits: 1
+  maxOverlaps: 16

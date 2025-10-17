@@ -848,11 +848,11 @@ MonoBehaviour:
   strafeForce: 35
   backForce: 30
   unifiedMoveForce: 0
-  baseGroundDamping: 7
+  baseGroundDamping: 9
   sprintForceMultiplier: 1.5
   airMoveForce: 2
   baseAirDamping: 0.1
-  jumpSpeed: 8
+  jumpSpeed: 5
   jumpCooldown: 0.1
   slideStartSpeed: 0
   slideSteerForce: 0
@@ -882,8 +882,8 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1
-  groundSpringDamper: 4
-  groundSpringStrength: 6
+  groundSpringDamper: 5
+  groundSpringStrength: 7.5
   isGrounded: 0
   surfaceMotionCastLength: 0.45
   connectedBody: {fileID: 0}

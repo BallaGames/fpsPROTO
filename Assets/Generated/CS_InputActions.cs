@@ -104,7 +104,7 @@ namespace Balla.Input
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Look"",
+                    ""name"": ""RotatePlayer"",
                     ""type"": ""Value"",
                     ""id"": ""6b444451-8a00-4d00-a97e-f47457f736a8"",
                     ""expectedControlType"": ""Vector2"",
@@ -334,7 +334,7 @@ namespace Balla.Input
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Gamepad"",
-                    ""action"": ""Look"",
+                    ""action"": ""RotatePlayer"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -345,7 +345,7 @@ namespace Balla.Input
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse;Touch"",
-                    ""action"": ""Look"",
+                    ""action"": ""RotatePlayer"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -356,7 +356,7 @@ namespace Balla.Input
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Joystick"",
-                    ""action"": ""Look"",
+                    ""action"": ""RotatePlayer"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1198,7 +1198,7 @@ namespace Balla.Input
             // Player
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
-            m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
+            m_Player_Look = m_Player.FindAction("RotatePlayer", throwIfNotFound: true);
             m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
             m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6540956744956704932}
   - component: {fileID: 5964100295203574477}
   - component: {fileID: 7487380531173577581}
-  - component: {fileID: -2949412212065753371}
+  - component: {fileID: 1503340107760667291}
   m_Layer: 0
   m_Name: Grenade
   m_TagString: Untagged
@@ -78,11 +78,12 @@ MonoBehaviour:
   vfx: {fileID: 5122383467804474634}
   meshFilter: {fileID: 115686625311598981}
   meshRenderer: {fileID: 1511891478159666725}
+  networkTransform: {fileID: 1503340107760667291}
   maxLife: 3
   currLife: 0
   r: {fileID: 1511891478159666725}
   data: {fileID: 11400000, guid: 7bdea89f3d6e1dc469740c4d32789c7f, type: 2}
---- !u!114 &-2949412212065753371
+--- !u!114 &1503340107760667291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
