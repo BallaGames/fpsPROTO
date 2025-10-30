@@ -640,8 +640,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4315058328011835928}
   - component: {fileID: 455495094027409589}
+  - component: {fileID: 679440918223525278}
   m_Layer: 0
-  m_Name: GrenadeLauncher
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -691,7 +692,35 @@ MonoBehaviour:
   fired: 0
   muzzleWhenFiring: 0
   playingMuzzle: 0
+  muzzleEffect: {fileID: 9053833446784128104}
   projectileData: {fileID: 11400000, guid: 7bdea89f3d6e1dc469740c4d32789c7f, type: 2}
+--- !u!114 &679440918223525278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7759193549054062215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2acb4568f114642b0a79dd97154314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.HitscanWeapon
+  ShowTopMostFoldoutHeaderGroup: 1
+  holder: {fileID: 0}
+  ammunition: 0
+  ammoPerAttack: 0
+  muzzle: {fileID: 2511197524660022789}
+  roundsPerMinute: 600
+  timeBetweenRounds: 0
+  fireTimeIncrement: 0
+  canAutoFire: 0
+  usesBurstFire: 0
+  shotsInBurst: 0
+  timeBetweenBursts: 0
+  fired: 0
+  muzzleWhenFiring: 0
+  playingMuzzle: 0
   muzzleEffect: {fileID: 9053833446784128104}
 --- !u!1 &8509274726289952231
 GameObject:
@@ -991,7 +1020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3236690422
+  GlobalObjectIdHash: 2089803535
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 2
@@ -1019,7 +1048,8 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   entity: {fileID: 5925812010902001671}
   firearmShootPoint: {fileID: 5254811763020715218}
-  weapon: {fileID: 455495094027409589}
+  weaponIndex: 0
+  weapons: []
 --- !u!114 &5925812010902001671
 MonoBehaviour:
   m_ObjectHideFlags: 0
