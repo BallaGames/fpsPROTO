@@ -820,11 +820,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97969236595135320}
+  - component: {fileID: 6295133103642877787}
   - component: {fileID: 4956680199912701787}
   - component: {fileID: 3768126906538014519}
   - component: {fileID: 2321739531822409452}
   - component: {fileID: 3743798766194566111}
-  - component: {fileID: 6295133103642877787}
   - component: {fileID: 7200630937090898433}
   - component: {fileID: 5925812010902001671}
   m_Layer: 0
@@ -852,6 +852,31 @@ Transform:
   - {fileID: 9011621902923839911}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6295133103642877787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830037989592758132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 3236690422
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 2
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
 --- !u!114 &4956680199912701787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,31 +1033,6 @@ MonoBehaviour:
   UseRigidBodyForMotion: 0
   AutoUpdateKinematicState: 1
   AutoSetKinematicOnDespawn: 1
---- !u!114 &6295133103642877787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8830037989592758132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 2089803535
-  InScenePlacedSourceGlobalObjectIdHash: 0
-  DeferredDespawnTick: 0
-  Ownership: 2
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 1
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
-  SyncOwnerTransformWhenParented: 1
-  AllowOwnerToParent: 0
 --- !u!114 &7200630937090898433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,9 @@ MonoBehaviour:
   entity: {fileID: 5925812010902001671}
   firearmShootPoint: {fileID: 5254811763020715218}
   weaponIndex: 0
-  weapons: []
+  weapons:
+  - {fileID: 455495094027409589}
+  - {fileID: 679440918223525278}
 --- !u!114 &5925812010902001671
 MonoBehaviour:
   m_ObjectHideFlags: 0
