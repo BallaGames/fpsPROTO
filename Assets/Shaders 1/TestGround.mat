@@ -63,7 +63,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _GridSoftness: -0.29
-    - _GridThickness: 0.01
+    - _GridThickness: 0.0025
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -74,8 +74,8 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Smoothness: 0
-    - _SphereMaskHardness: 0
-    - _SphereMaskRadius: 0
+    - _SphereMaskHardness: 0.18
+    - _SphereMaskRadius: 0.38
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -103,17 +103,17 @@ Material:
     - _ZWrite: 1
     - _subtractionMultiplier: 0
     m_Colors:
-    - _BackgroundColour: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0}
+    - _BackgroundColour: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0}
     - _CheckerColour1A: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0}
     - _CheckerColour1B: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
     - _CheckerColour2A: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 0}
-    - _CheckerColour2B: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerSize: {r: 10, g: 10, b: 0, a: 0}
+    - _CheckerColour2B: {r: 0.121568635, g: 0.121568635, b: 0.121568635, a: 0}
+    - _CheckerSize: {r: 200, g: 200, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _GridColour: {r: 0, g: 1, b: 0.981899, a: 0}
-    - _GridSize: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _SmallCheckerSize: {r: 50, g: 50, b: 0, a: 0}
+    - _GridSize: {r: 0.4, g: 0.4, b: 0, a: 0}
+    - _SmallCheckerSize: {r: 800, g: 800, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1050888048084735713
