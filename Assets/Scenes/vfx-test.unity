@@ -294,6 +294,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7594302718126389584, guid: f06cc4cddd863d8479e8d4ce6646e7e4, type: 3}
+      propertyPath: m_PropertySheet.m_Bool.m_Array.Array.data[0].m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8578281921287964960, guid: f06cc4cddd863d8479e8d4ce6646e7e4, type: 3}
       propertyPath: m_Name
       value: P90Flash
@@ -647,6 +651,10 @@ PrefabInstance:
     - target: {fileID: 1067325859720606586, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
       propertyPath: m_Name
       value: AK
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349631020403264566, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
+      propertyPath: m_PropertySheet.m_Bool.m_Array.Array.data[0].m_Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6767422914142032173, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
       propertyPath: m_LocalPosition.x
