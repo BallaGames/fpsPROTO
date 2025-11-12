@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3482706352793048892}
-  - component: {fileID: 5701384843779469037}
   - component: {fileID: 9079140826486288078}
   - component: {fileID: 4631730242350418686}
   - component: {fileID: 4050919189220583302}
@@ -36,31 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5701384843779469037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8790527395822126116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 995476705
-  InScenePlacedSourceGlobalObjectIdHash: 0
-  DeferredDespawnTick: 0
-  Ownership: 8
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 1
-  SceneMigrationSynchronization: 1
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
-  SyncOwnerTransformWhenParented: 1
-  AllowOwnerToParent: 0
 --- !u!114 &9079140826486288078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e929574619ac5204aa2d6a986fc1503e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.SessionManager
-  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!114 &4631730242350418686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,7 +59,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d29f4250c162e14e8d66d6ad841368b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Core.ProjectileManager
-  ShowTopMostFoldoutHeaderGroup: 1
   projectileLayermask:
     serializedVersion: 2
     m_Bits: 1
@@ -109,9 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1644fe358a259d04081936972066c774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Core.ExplosionManager
-  ShowTopMostFoldoutHeaderGroup: 1
   explosions:
   - {fileID: 11400000, guid: 02a6c65ba6309ea428e557877c382878, type: 2}
+  - {fileID: 11400000, guid: b488e7a2ae9801840b94aebe695b0fa3, type: 2}
   checkMask:
     serializedVersion: 2
     m_Bits: 1
@@ -131,4 +103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 672dcadd5d4a1ad4c96c703aea8033d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Gameplay.HitscanManager
-  ShowTopMostFoldoutHeaderGroup: 1
+  fireFromMuzzle: 0
+  hitscanData:
+  - {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
+  hitscanMask:
+    serializedVersion: 2
+    m_Bits: 129
+  tracersInChunk: 25
+  maxHitsPerRay: 16
+  maxCastsPerFrame: 512

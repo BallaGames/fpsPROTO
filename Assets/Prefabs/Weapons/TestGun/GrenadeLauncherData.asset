@@ -42,7 +42,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxLifetime: 8
+  maxLifetime: 4
   drag: 0.05
   radius: 0.005
   cannotBounceOnEntity: 0
@@ -50,9 +50,3 @@ MonoBehaviour:
   bounciness: 0.6
   explodeOnExpire: 0
   explosionData: {fileID: 11400000, guid: 02a6c65ba6309ea428e557877c382878, type: 2}
-  vfxAsset: {fileID: 0}
-  projectileMesh: {fileID: 0}
-  meshMaterial: {fileID: 0}
-  meshScale: {x: 0, y: 0, z: 0}
-  meshPos: {x: 0, y: 0, z: 0}
-  meshRotation: {x: 0, y: 0, z: 0}

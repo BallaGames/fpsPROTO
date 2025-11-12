@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf2eeececd799e4292b1f6d24a147a4, type: 3}
   m_Name: GrenadeExplosionData
   m_EditorClassIdentifier: Assembly-CSharp::Balla.ExplosionData
-  explosionPrefab: {fileID: 2077767669397903393, guid: d384fd283e28c294a93fe995fc47d6db, type: 3}
+  explosionPrefab: {fileID: 276945707583614892, guid: 86dd8799c4f6cbd4a835b42bbeb8eb7b, type: 3}
   radius: 2
+  forceMult: 0.2
   maxDamage: 50
   selfDamageMult: 1.5
   enviroDamageMult: 3
@@ -22,18 +23,18 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 2
-      outSlope: 2
+      value: 1
+      inSlope: -0
+      outSlope: -0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      value: 0
+      inSlope: -2
+      outSlope: -2
       tangentMode: 0
       weightedMode: 0
       inWeight: 0

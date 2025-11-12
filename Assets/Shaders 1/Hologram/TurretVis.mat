@@ -35,7 +35,7 @@ Material:
   m_LightmapFlags: 3
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -103,7 +103,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _RimOffset: 0
-    - _RimPower: 0.04
+    - _RimPower: 1.32
     - _ScanFrequency: 0.16
     - _ScanNoiseScale: 20000
     - _ScanSize: 0.98

@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2acb4568f114642b0a79dd97154314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.HitscanWeapon
-  ShowTopMostFoldoutHeaderGroup: 1
   holder: {fileID: 0}
+  displayName: 
+  icon: {fileID: 0}
   renderers:
   - {fileID: 424392743062008015}
   - {fileID: 6388572777701657600}
@@ -55,10 +56,12 @@ MonoBehaviour:
   - {fileID: 2815797717291829786}
   ammunition: 30
   ammoPerAttack: 1
+  idleOffset: {x: 0.07, y: -0.18, z: 0.6}
+  idleRotation: {x: 0, y: 0, z: 0, w: 1}
   muzzle: {fileID: 8684038276186870039}
   roundsPerMinute: 600
   timeBetweenRounds: 0.1
-  fireTimeIncrement: 0.0019999992
+  shotsPerAttack: 1
   canAutoFire: 1
   usesBurstFire: 0
   shotsInBurst: 0
@@ -67,6 +70,9 @@ MonoBehaviour:
   muzzleWhenFiring: 0
   playingMuzzle: 0
   muzzleEffect: {fileID: 5349631020403264566}
+  recoilData: {fileID: 11400000, guid: b00cf8e3efe46b646b52d499cd0c981e, type: 2}
+  hitscanData: {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
+  dataIndex: -1
 --- !u!1001 &2611357180592709390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77,15 +83,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a923a0ae947c59a458b389a692d9e0d1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a923a0ae947c59a458b389a692d9e0d1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a923a0ae947c59a458b389a692d9e0d1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a923a0ae947c59a458b389a692d9e0d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -210,11 +216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774301325458531272, guid: cf1ce36859769fb43b8d2cad1e4d2a80, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1101
+      value: 0.088
       objectReference: {fileID: 0}
     - target: {fileID: 2774301325458531272, guid: cf1ce36859769fb43b8d2cad1e4d2a80, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.4726
+      value: 0.3829
       objectReference: {fileID: 0}
     - target: {fileID: 2774301325458531272, guid: cf1ce36859769fb43b8d2cad1e4d2a80, type: 3}
       propertyPath: m_LocalRotation.w
