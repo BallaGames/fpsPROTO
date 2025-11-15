@@ -91,6 +91,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   maxOverlaps: 16
+  requestCounter: 0
 --- !u!114 &-3654109452941171750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +107,7 @@ MonoBehaviour:
   fireFromMuzzle: 0
   hitscanData:
   - {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
+  - {fileID: 11400000, guid: b5787ddbe9971bc4a855befafd864072, type: 2}
   hitscanMask:
     serializedVersion: 2
     m_Bits: 129

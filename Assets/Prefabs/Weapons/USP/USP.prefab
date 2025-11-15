@@ -56,6 +56,7 @@ MonoBehaviour:
   ammoPerAttack: 1
   idleOffset: {x: 0.1, y: -0.23, z: 0.6}
   idleRotation: {x: 0, y: 0, z: 0, w: 1}
+  crosshairScaling: {x: 54, y: 54}
   muzzle: {fileID: 7095092597469323055}
   roundsPerMinute: 360
   timeBetweenRounds: 0.16666667
@@ -69,6 +70,14 @@ MonoBehaviour:
   playingMuzzle: 0
   muzzleEffect: {fileID: 5821050938859061774}
   recoilData: {fileID: 11400000, guid: fadc860e8746a6040bfc6201fb9457af, type: 2}
+  currentSpread: 0
+  useSpread: 1
+  useEvenSpread: 0
+  evenSpreadAmount: 0
+  maxSpreadAngle: 2
+  spreadDecay: 3
+  spreadPerShot: 0.6
+  spreadScale: {x: 1.5, y: 1.5}
   hitscanData: {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
   dataIndex: -1
 --- !u!1001 &4969327992601869543

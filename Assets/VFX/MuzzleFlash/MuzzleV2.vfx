@@ -3424,7 +3424,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615026}
   m_ExposedName: FlashColourB
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -3789,7 +3789,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615037}
   m_ExposedName: FlashForwardLifetime
   m_Exposed: 1
-  m_Order: 48
+  m_Order: 52
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -3942,7 +3942,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615041}
   m_ExposedName: FlashForwardSizeOverLife
   m_Exposed: 1
-  m_Order: 49
+  m_Order: 53
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -4023,7 +4023,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615043}
   m_ExposedName: FlashForwardColourOverLife
   m_Exposed: 1
-  m_Order: 51
+  m_Order: 55
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -4966,7 +4966,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615094}
   m_ExposedName: test_looptime
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 24
   m_Category: 
   m_Min:
     m_Type:
@@ -5083,7 +5083,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615096}
   m_ExposedName: test_loop
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 27
   m_Category: 
   m_Min:
     m_Type:
@@ -5489,7 +5489,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615116}
   m_ExposedName: FlashForwardScaleMin
   m_Exposed: 1
-  m_Order: 52
+  m_Order: 56
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -5672,7 +5672,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615121}
   m_ExposedName: FlashForwardScaleMax
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 18
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -6129,7 +6129,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615141}
   m_ExposedName: FlashForwardRotation
   m_Exposed: 1
-  m_Order: 53
+  m_Order: 57
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -8000,7 +8000,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615239}
   m_ExposedName: SmokeColourA
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -8220,7 +8220,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615245}
   m_ExposedName: SmokeColourB
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -8440,7 +8440,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615251}
   m_ExposedName: SmokeLifetime
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -8593,7 +8593,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615255}
   m_ExposedName: SmokeSizeOverLife
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 9
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -8674,7 +8674,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615257}
   m_ExposedName: SmokeColourOverLife
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 10
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -8755,7 +8755,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615269}
   m_ExposedName: SmokeSize
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 12
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -9245,7 +9245,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615310}
   m_ExposedName: SmokeSpeed
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 14
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -9397,7 +9397,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615314}
   m_ExposedName: SmokeFlipSize
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 20
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -9546,7 +9546,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615318}
   m_ExposedName: SmokeDirectionBlendMin
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 25
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -10830,7 +10830,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615394}
   m_ExposedName: SmokeCircle
   m_Exposed: 1
-  m_Order: 56
+  m_Order: 58
   m_Category: SmokeCircle
   m_Min:
     m_Type:
@@ -11816,7 +11816,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615448}
   m_ExposedName: SmokeSpawnCount
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 16
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -14151,7 +14151,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615597}
   m_ExposedName: FlashRadLifetime
   m_Exposed: 1
-  m_Order: 30
+  m_Order: 35
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -14304,7 +14304,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615601}
   m_ExposedName: FlashRadSizeOverLife
   m_Exposed: 1
-  m_Order: 32
+  m_Order: 37
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -14385,7 +14385,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615603}
   m_ExposedName: FlashRadColourOverLife
   m_Exposed: 1
-  m_Order: 33
+  m_Order: 38
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -14599,7 +14599,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615624}
   m_ExposedName: FlashRadSize
   m_Exposed: 1
-  m_Order: 34
+  m_Order: 39
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -15072,7 +15072,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615726}
   m_ExposedName: FlashRadSpawnCount
   m_Exposed: 1
-  m_Order: 57
+  m_Order: 59
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -16767,7 +16767,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615985}
   m_ExposedName: FlashRadSpeed
   m_Exposed: 1
-  m_Order: 58
+  m_Order: 60
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -17117,7 +17117,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615999}
   m_ExposedName: FlashRadAngleOffset
   m_Exposed: 1
-  m_Order: 35
+  m_Order: 40
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -17200,7 +17200,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616001}
   m_ExposedName: FlashRad_CircleRadius
   m_Exposed: 1
-  m_Order: 36
+  m_Order: 41
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -18673,7 +18673,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616106}
   m_ExposedName: ForwardFlashTex
   m_Exposed: 1
-  m_Order: 50
+  m_Order: 54
   m_Category: ForwardFlash
   m_Min:
     m_Type:
@@ -18754,7 +18754,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616108}
   m_ExposedName: SmokeTex
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 19
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -18835,7 +18835,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616110}
   m_ExposedName: FlashRadTex
   m_Exposed: 1
-  m_Order: 38
+  m_Order: 42
   m_Category: RadialFlash
   m_Min:
     m_Type:
@@ -18916,7 +18916,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616112}
   m_ExposedName: BackAngle
   m_Exposed: 1
-  m_Order: 39
+  m_Order: 43
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -18999,7 +18999,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616116}
   m_ExposedName: BackFlashLife
   m_Exposed: 1
-  m_Order: 40
+  m_Order: 44
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -19152,7 +19152,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616120}
   m_ExposedName: BackFlashSizeOverLife
   m_Exposed: 1
-  m_Order: 41
+  m_Order: 45
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -19233,7 +19233,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616122}
   m_ExposedName: BackFlashColourOverLife
   m_Exposed: 1
-  m_Order: 42
+  m_Order: 46
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -19314,7 +19314,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616128}
   m_ExposedName: BackFlashSize
   m_Exposed: 1
-  m_Order: 43
+  m_Order: 47
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -19592,7 +19592,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616152}
   m_ExposedName: BackFlashScaleMin
   m_Exposed: 1
-  m_Order: 44
+  m_Order: 48
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -19741,7 +19741,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616156}
   m_ExposedName: BackFlashScaleMax
   m_Exposed: 1
-  m_Order: 45
+  m_Order: 49
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -20699,7 +20699,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616199}
   m_ExposedName: BackFlashTex
   m_Exposed: 1
-  m_Order: 46
+  m_Order: 50
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -20780,7 +20780,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616201}
   m_ExposedName: BackFlashColourA
   m_Exposed: 1
-  m_Order: 59
+  m_Order: 61
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -21001,7 +21001,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616207}
   m_ExposedName: BackFlashColourB
   m_Exposed: 1
-  m_Order: 47
+  m_Order: 51
   m_Category: Backflash
   m_Min:
     m_Type:
@@ -22397,7 +22397,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616305}
   m_ExposedName: DoForwardFlash
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -22481,7 +22481,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616307}
   m_ExposedName: DoSmoke
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 11
   m_Category: 
   m_Min:
     m_Type:
@@ -22565,7 +22565,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616309}
   m_ExposedName: DoRadialFlash
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 15
   m_Category: 
   m_Min:
     m_Type:
@@ -22649,7 +22649,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616311}
   m_ExposedName: DoBackFlash
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 21
   m_Category: 
   m_Min:
     m_Type:
@@ -22989,7 +22989,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616321}
   m_ExposedName: DoSparks
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: 
   m_Min:
     m_Type:
@@ -25818,7 +25818,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616433}
   m_ExposedName: SparkLife
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 17
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -25971,7 +25971,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616437}
   m_ExposedName: SparkSizeOverLife
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 22
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26052,7 +26052,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616439}
   m_ExposedName: SparkColourOverLife
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 26
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26133,7 +26133,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616441}
   m_ExposedName: SparkSize
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 28
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26285,7 +26285,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616445}
   m_ExposedName: SparkScaleMin
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 29
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26434,7 +26434,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616449}
   m_ExposedName: SparkScaleMax
   m_Exposed: 1
-  m_Order: 21
+  m_Order: 30
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26583,7 +26583,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616453}
   m_ExposedName: SparkTex
   m_Exposed: 1
-  m_Order: 23
+  m_Order: 31
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26664,7 +26664,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616455}
   m_ExposedName: SparkColourA
   m_Exposed: 1
-  m_Order: 25
+  m_Order: 32
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -26884,7 +26884,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616461}
   m_ExposedName: SparkColourB
   m_Exposed: 1
-  m_Order: 27
+  m_Order: 33
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -27310,7 +27310,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616473}
   m_ExposedName: SparkSpawnCount
   m_Exposed: 1
-  m_Order: 29
+  m_Order: 34
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -27462,7 +27462,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616477}
   m_ExposedName: SparkDirectionBlend
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -27615,7 +27615,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616481}
   m_ExposedName: SparkGravity
   m_Exposed: 1
-  m_Order: 31
+  m_Order: 36
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -28672,7 +28672,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616512}
   m_ExposedName: SparkSphere
   m_Exposed: 1
-  m_Order: 60
+  m_Order: 62
   m_Category: SparkSphere
   m_Min:
     m_Type:
@@ -29564,7 +29564,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616539}
   m_ExposedName: SparkSpeed
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 13
   m_Category: Sparks
   m_Min:
     m_Type:
@@ -30468,7 +30468,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616570}
   m_ExposedName: SmokeDirectionBlendMax
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 23
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -30718,7 +30718,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616577}
   m_ExposedName: SmokeDrag
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Smoke
   m_Min:
     m_Type:

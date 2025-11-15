@@ -267,8 +267,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8360857081853298165}
-  - {fileID: 9156895049587041010}
+  - {fileID: 7440194173980235914}
   - {fileID: 7042040217370263137}
   - {fileID: 3215212387838887890}
   - {fileID: 5254811763020715218}
@@ -299,12 +298,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4753647042818528940}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4232281042344735280}
+  m_Father: {fileID: 38416450401744468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5622655541939406991
 GameObject:
@@ -392,7 +391,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 97969236595135320}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6778437184837130348
+--- !u!1 &6515688380328130125
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,28 +399,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9156895049587041010}
+  - component: {fileID: 38416450401744468}
   m_Layer: 0
-  m_Name: ViewCamPoint
+  m_Name: CamRecoil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9156895049587041010
+--- !u!4 &38416450401744468
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6778437184837130348}
+  m_GameObject: {fileID: 6515688380328130125}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4232281042344735280}
+  m_Children:
+  - {fileID: 8360857081853298165}
+  m_Father: {fileID: 7440194173980235914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7921989337291907298
 GameObject:
@@ -456,6 +456,38 @@ Transform:
   - {fileID: 3198263035814937895}
   - {fileID: 7110375770260128031}
   - {fileID: 1939898571998819535}
+  m_Father: {fileID: 4232281042344735280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8201815377084324560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7440194173980235914}
+  m_Layer: 0
+  m_Name: CamPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7440194173980235914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201815377084324560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 38416450401744468}
   m_Father: {fileID: 4232281042344735280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8509274726289952231
@@ -663,7 +695,8 @@ MonoBehaviour:
   climbSpaceToStand: 1.9
   climbSpaceToCrouch: 1
   climbToCrouchHeight: -0.1
-  climbToStandHeight: -0.1
+  climbHeightOffset: -0.2
+  climbForwardOffset: 0.5
   climbCastCapsule: {fileID: 2566723791901903676}
   climbVerticalCurve:
     serializedVersion: 2
@@ -794,6 +827,9 @@ MonoBehaviour:
   - {fileID: 383806198437627041}
   - {fileID: 2836128160667772514}
   recoilData: {fileID: 0}
+  camRecoilTarget: {fileID: 38416450401744468}
+  camPosScale: {x: 1, y: 1, z: 1}
+  camRotScale: {x: 1, y: 1, z: 1}
 --- !u!114 &5925812010902001671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,6 +1072,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3948321935341995489}
     m_Modifications:
+    - target: {fileID: 811192208411568885, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
+      propertyPath: crosshairScaling.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 811192208411568885, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
+      propertyPath: crosshairScaling.y
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 1067325859720606586, guid: a8de328e5d3d66c488fc196f7373c8fe, type: 3}
       propertyPath: m_Name
       value: AK

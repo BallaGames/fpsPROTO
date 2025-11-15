@@ -285,3 +285,72 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  camPosIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camRotIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.74014884
+      value: 0.85669816
+      inSlope: -1.9537987
+      outSlope: -1.9537987
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.16659355
+    - serializedVersion: 3
+      time: 1
+      value: 0.7
+      inSlope: -0.05470282
+      outSlope: -0.05470282
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.052229285
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxCamPos: {x: 0.01, y: 0.01, z: 0.01}
+  maxCamRot: {x: 1, y: 1, z: 1}
+  maxCamPosAdd: {x: 0, y: 0, z: 0.01}
+  minCamPosAdd: {x: 0, y: 0, z: 0.02}
+  maxCamRotAdd: {x: -0.7, y: 0.6, z: 2}
+  minCamRotAdd: {x: -1, y: -0.6, z: -2}
+  camPosSharp: 30
+  camRotSharp: 16
+  camPosDecay: 5
+  camRotDecay: 8
+  camRecoilAdd: 0.1
+  camRecoilDecay: 1.5

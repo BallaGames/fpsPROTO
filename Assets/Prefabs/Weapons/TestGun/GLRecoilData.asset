@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c54623af216ef094aa72242cbe9c74df, type: 3}
   m_Name: GLRecoilData
   m_EditorClassIdentifier: Assembly-CSharp::Balla.RecoilData
-  linearForceMin: {x: -0.01, y: 0.05, z: -0.2}
-  linearForceMax: {x: 0.01, y: 0.08, z: -0.2}
+  linearForceMin: {x: -0.01, y: 0.05, z: -0.4}
+  linearForceMax: {x: 0.01, y: 0.08, z: -0.4}
   angularForceMin: {x: -15, y: -2, z: 2}
   angularForceMax: {x: -15, y: 2, z: -2}
   linearSpeed: 0
-  linearSharp: 25
+  linearSharp: 40
   angularSpeed: 3
-  angularSharp: 15
-  recoilReturnTime: 0.02
+  angularSharp: 25
+  recoilReturnTime: 0.1
   recoilReturnSpeed: 3
   linearReturnCurve:
     serializedVersion: 2
@@ -303,3 +303,63 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  camPosIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camRotIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxCamPos: {x: 0, y: 0, z: 0}
+  maxCamRot: {x: 0, y: 0, z: 0}
+  maxCamPosAdd: {x: 0.01, y: 0.01, z: -0.1}
+  minCamPosAdd: {x: 0.01, y: 0.01, z: -0.1}
+  maxCamRotAdd: {x: -2, y: 0.6, z: 1}
+  minCamRotAdd: {x: -2.2, y: -0.6, z: -1}
+  camPosSharp: 35
+  camRotSharp: 35
+  camPosDecay: 7
+  camRotDecay: 7
+  camRecoilAdd: 0
+  camRecoilDecay: 0
