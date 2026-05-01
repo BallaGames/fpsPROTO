@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6767422914142032173}
   - component: {fileID: 811192208411568885}
+  - component: {fileID: 8761400181787233384}
   m_Layer: 0
   m_Name: AK
   m_TagString: Untagged
@@ -46,6 +47,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2acb4568f114642b0a79dd97154314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.HitscanWeapon
+  hitscanData: {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
+  dataIndex: 0
+--- !u!114 &8761400181787233384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067325859720606586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e088764bf8bf514389634d3a862bf78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.RangedWeapon
   holder: {fileID: 0}
   displayName: 
   icon: {fileID: 0}
@@ -75,13 +90,13 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 3.6
   spreadDecay: 6
   spreadPerShot: 0.8
   spreadScale: {x: 2, y: 2}
-  hitscanData: {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
-  dataIndex: 0
+  fireModule: {fileID: 811192208411568885}
 --- !u!1001 &2611357180592709390
 PrefabInstance:
   m_ObjectHideFlags: 0

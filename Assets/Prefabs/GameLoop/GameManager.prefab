@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4050919189220583302}
   - component: {fileID: -3654109452941171750}
   m_Layer: 0
-  m_Name: SessionManager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,12 +63,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   fireFromMuzzle: 1
-  projectileLerpSpeed: 25
+  projectileLerpSpeed: 50
   maxHits: 8
   startProjectiles: 100
   projectilesInChunk: 25
   projectileData:
   - {fileID: 11400000, guid: 7bdea89f3d6e1dc469740c4d32789c7f, type: 2}
+  - {fileID: 11400000, guid: 33285e1052caf1340885ecb1a5d268e3, type: 2}
 --- !u!114 &4050919189220583302
 MonoBehaviour:
   m_ObjectHideFlags: 0

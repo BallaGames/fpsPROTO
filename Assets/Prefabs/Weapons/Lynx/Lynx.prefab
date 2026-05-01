@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7427204412619803903}
   - component: {fileID: 5211912353573023846}
+  - component: {fileID: 4592898723789970362}
   m_Layer: 0
   m_Name: Lynx
   m_TagString: Untagged
@@ -46,17 +47,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2acb4568f114642b0a79dd97154314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.HitscanWeapon
+  hitscanData: {fileID: 11400000, guid: b5787ddbe9971bc4a855befafd864072, type: 2}
+  dataIndex: -1
+--- !u!114 &4592898723789970362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266956680656679119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e088764bf8bf514389634d3a862bf78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.RangedWeapon
   holder: {fileID: 0}
   displayName: 
   icon: {fileID: 0}
   renderers:
   - {fileID: 3438527938031055875}
   - {fileID: 9146822111048449952}
-  ammunition: 6
+  maxAmmo: 0
+  currentAmmo: 0
   ammoPerAttack: 1
+  useCharge: 0
+  mustChargeToFull: 0
+  dumpChargeOnAttack: 0
+  isCharged: 0
+  isCharging: 0
+  currentCharge: 0
+  chargeRate: 1
+  chargeDecay: 1
+  minCharge: 0
+  fireRateMultAtMinCharge: 1
+  useHeat: 0
+  currentHeat: 0
+  isOverheated: 0
+  overheatEffect: []
+  heatLevelParamName: 
+  heatLevelParamID: 0
+  maxHeat: 0
+  heatPerAttack: 0
+  heatDecay: 0
+  overheatTime: 0
+  overheatDecay: 0
+  forceCoolAfterAttack: 0
+  forcedCooling: 0
+  forcedCoolTime: 0
   idleOffset: {x: 0.15, y: -0.2, z: 0.4}
   idleRotation: {x: 0, y: 0, z: 0, w: 1}
-  crosshairScaling: {x: 0, y: 0}
+  crosshairScaling: {x: 64, y: 64}
   muzzle: {fileID: 2405016656845841581}
   roundsPerMinute: 60
   timeBetweenRounds: 1
@@ -64,6 +104,7 @@ MonoBehaviour:
   canAutoFire: 0
   usesBurstFire: 0
   shotsInBurst: 0
+  doingBurstFire: 0
   timeBetweenBursts: 0
   fired: 0
   muzzleWhenFiring: 0
@@ -73,13 +114,13 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 6
   spreadDecay: 3
   spreadPerShot: 1
   spreadScale: {x: 1, y: 1}
-  hitscanData: {fileID: 11400000, guid: b5787ddbe9971bc4a855befafd864072, type: 2}
-  dataIndex: -1
+  fireModule: {fileID: 5211912353573023846}
 --- !u!1001 &567481811750897509
 PrefabInstance:
   m_ObjectHideFlags: 0

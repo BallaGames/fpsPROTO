@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3236379726396705398}
   - component: {fileID: 3251819656957537063}
+  - component: {fileID: 1325447430715939810}
   m_Layer: 0
   m_Name: P90
   m_TagString: Untagged
@@ -73,13 +74,61 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 2
   spreadDecay: 8
   spreadPerShot: 0.7
   spreadScale: {x: 3, y: 3}
+  fireModule: {fileID: 0}
   hitscanData: {fileID: 11400000, guid: c6fcb2d2c25306743a606661b0066801, type: 2}
   dataIndex: 0
+--- !u!114 &1325447430715939810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928473446872403103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e088764bf8bf514389634d3a862bf78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.RangedWeapon
+  holder: {fileID: 0}
+  displayName: 
+  icon: {fileID: 0}
+  renderers:
+  - {fileID: 7141894248600198833}
+  - {fileID: 3876055018061448467}
+  ammunition: 50
+  ammoPerAttack: 1
+  idleOffset: {x: 0.07, y: -0.18, z: 0.49}
+  idleRotation: {x: 0, y: 0, z: 0, w: 1}
+  crosshairScaling: {x: 64, y: 64}
+  muzzle: {fileID: 5914331929765277148}
+  roundsPerMinute: 800
+  timeBetweenRounds: 0.075
+  shotsPerAttack: 1
+  canAutoFire: 1
+  usesBurstFire: 0
+  shotsInBurst: 0
+  timeBetweenBursts: 0
+  fired: 0
+  muzzleWhenFiring: 0
+  playingMuzzle: 0
+  muzzleEffect: {fileID: 2019201345571884811}
+  recoilData: {fileID: 11400000, guid: a207f31f829ddea468ea007d6919708b, type: 2}
+  currentSpread: 0
+  useSpread: 1
+  useEvenSpread: 0
+  spreadBeforeShot: 0
+  evenSpreadAmount: 0
+  maxSpreadAngle: 2
+  spreadDecay: 8
+  spreadPerShot: 0.7
+  spreadScale: {x: 3, y: 3}
+  fireModule: {fileID: 0}
 --- !u!1001 &2698026588855178007
 PrefabInstance:
   m_ObjectHideFlags: 0
