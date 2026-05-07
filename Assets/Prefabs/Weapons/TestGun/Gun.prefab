@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6c9ebe1c5bf05724db4773f675ea9eff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,6 +88,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1186652446242518323
 GameObject:
@@ -136,40 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1701507c9a05924ba5232862b1c3915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.Equipment.Firearm
-  holder: {fileID: 0}
-  displayName: 
-  icon: {fileID: 0}
-  renderers:
-  - {fileID: 3054817662497504883}
-  - {fileID: 9154360581864141678}
-  ammunition: 1
-  ammoPerAttack: 1
-  idleOffset: {x: 0.07, y: -0.24, z: 0.6}
-  idleRotation: {x: 0, y: 0, z: 0, w: 1}
-  crosshairScaling: {x: 16, y: 16}
-  muzzle: {fileID: 2349345896330897507}
-  roundsPerMinute: 120
-  timeBetweenRounds: 0.5
-  shotsPerAttack: 1
-  canAutoFire: 0
-  usesBurstFire: 0
-  shotsInBurst: 0
-  timeBetweenBursts: 0
-  fired: 0
-  muzzleWhenFiring: 0
-  playingMuzzle: 0
-  muzzleEffect: {fileID: 1307414405865846082}
-  recoilData: {fileID: 11400000, guid: 880fa232843249247b6a8cce986bb318, type: 2}
-  currentSpread: 0
-  useSpread: 1
-  useEvenSpread: 0
-  spreadBeforeShot: 0
-  evenSpreadAmount: 0
-  maxSpreadAngle: 3
-  spreadDecay: 7
-  spreadPerShot: 1
-  spreadScale: {x: 1, y: 1}
-  fireModule: {fileID: 0}
   projectileData: {fileID: 11400000, guid: 7bdea89f3d6e1dc469740c4d32789c7f, type: 2}
 --- !u!114 &6312878403210154166
 MonoBehaviour:
@@ -189,8 +156,39 @@ MonoBehaviour:
   renderers:
   - {fileID: 3054817662497504883}
   - {fileID: 9154360581864141678}
-  ammunition: 1
+  applyViewLayer: 1
+  useAmmo: 0
+  maxAmmo: 0
+  currentAmmo: 0
   ammoPerAttack: 1
+  reloadTime: 0
+  currReloadTime: 0
+  cancelReloadOnSwitch: 1
+  isReloading: 0
+  useCharge: 0
+  mustChargeToFull: 0
+  dumpChargeOnAttack: 0
+  isCharged: 0
+  isCharging: 0
+  currentCharge: 0
+  chargeRate: 0
+  chargeDecay: 0
+  minCharge: 0
+  fireRateMultAtMinCharge: 0
+  useHeat: 0
+  currentHeat: 0
+  isOverheated: 0
+  overheatEffect: []
+  heatLevelParamName: 
+  heatLevelParamID: 0
+  maxHeat: 0
+  heatPerAttack: 0
+  heatDecay: 0
+  overheatTime: 0
+  overheatDecay: 0
+  forceCoolAfterAttack: 0
+  forcedCooling: 0
+  forcedCoolTime: 0
   idleOffset: {x: 0.07, y: -0.24, z: 0.6}
   idleRotation: {x: 0, y: 0, z: 0, w: 1}
   crosshairScaling: {x: 16, y: 16}
@@ -201,6 +199,7 @@ MonoBehaviour:
   canAutoFire: 0
   usesBurstFire: 0
   shotsInBurst: 0
+  doingBurstFire: 0
   timeBetweenBursts: 0
   fired: 0
   muzzleWhenFiring: 0
@@ -210,13 +209,17 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  baseSpread: 1
+  crouchSpreadMult: 0.5
+  moveSpreadMult: 1.4
+  airSpreadMult: 1.8
   spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 3
   spreadDecay: 7
   spreadPerShot: 1
   spreadScale: {x: 1, y: 1}
-  fireModule: {fileID: 0}
+  fireModule: {fileID: 9046563074346271489}
 --- !u!1001 &2302641671103968365
 PrefabInstance:
   m_ObjectHideFlags: 0

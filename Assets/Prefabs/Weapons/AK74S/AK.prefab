@@ -69,8 +69,39 @@ MonoBehaviour:
   - {fileID: 6388572777701657600}
   - {fileID: 2456188671985306979}
   - {fileID: 2815797717291829786}
-  ammunition: 30
+  applyViewLayer: 1
+  useAmmo: 1
+  maxAmmo: 30
+  currentAmmo: 30
   ammoPerAttack: 1
+  reloadTime: 2
+  currReloadTime: 0
+  cancelReloadOnSwitch: 1
+  isReloading: 0
+  useCharge: 0
+  mustChargeToFull: 0
+  dumpChargeOnAttack: 0
+  isCharged: 0
+  isCharging: 0
+  currentCharge: 0
+  chargeRate: 0
+  chargeDecay: 0
+  minCharge: 0
+  fireRateMultAtMinCharge: 0
+  useHeat: 0
+  currentHeat: 0
+  isOverheated: 0
+  overheatEffect: []
+  heatLevelParamName: 
+  heatLevelParamID: 0
+  maxHeat: 0
+  heatPerAttack: 0
+  heatDecay: 0
+  overheatTime: 0
+  overheatDecay: 0
+  forceCoolAfterAttack: 0
+  forcedCooling: 0
+  forcedCoolTime: 0
   idleOffset: {x: 0.07, y: -0.18, z: 0.6}
   idleRotation: {x: 0, y: 0, z: 0, w: 1}
   crosshairScaling: {x: 64, y: 64}
@@ -81,6 +112,7 @@ MonoBehaviour:
   canAutoFire: 1
   usesBurstFire: 0
   shotsInBurst: 0
+  doingBurstFire: 0
   timeBetweenBursts: 0
   fired: 0
   muzzleWhenFiring: 0
@@ -90,12 +122,16 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  baseSpread: 1
+  crouchSpreadMult: 0.5
+  moveSpreadMult: 1.4
+  airSpreadMult: 1.8
   spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 3.6
   spreadDecay: 6
   spreadPerShot: 0.8
-  spreadScale: {x: 2, y: 2}
+  spreadScale: {x: 1, y: 1}
   fireModule: {fileID: 811192208411568885}
 --- !u!1001 &2611357180592709390
 PrefabInstance:

@@ -102,6 +102,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: p90-metal
+    second: {fileID: 2100000, guid: aa1043eaea378264c8109ca5a82b0d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: p90-polym
+    second: {fileID: 2100000, guid: f5844f3055167804bb9bbc306544fe24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: sights
     second: {fileID: 2100000, guid: 7372e0fff7ae99240b749b22e4c3ef94, type: 2}
   materials:

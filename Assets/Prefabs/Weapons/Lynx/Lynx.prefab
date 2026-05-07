@@ -67,9 +67,15 @@ MonoBehaviour:
   renderers:
   - {fileID: 3438527938031055875}
   - {fileID: 9146822111048449952}
+  applyViewLayer: 1
+  useAmmo: 0
   maxAmmo: 0
   currentAmmo: 0
   ammoPerAttack: 1
+  reloadTime: 0
+  currReloadTime: 0
+  cancelReloadOnSwitch: 1
+  isReloading: 0
   useCharge: 0
   mustChargeToFull: 0
   dumpChargeOnAttack: 0
@@ -114,6 +120,10 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  baseSpread: 1
+  crouchSpreadMult: 0.5
+  moveSpreadMult: 1.4
+  airSpreadMult: 1.8
   spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 6

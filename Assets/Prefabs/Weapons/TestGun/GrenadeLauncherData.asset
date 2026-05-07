@@ -15,9 +15,11 @@ MonoBehaviour:
   projectilePrefab: {fileID: 7487380531173577581, guid: 402d820f7e352144a80b88bcc5cec776, type: 3}
   projectileID: 0
   projectileSpeed: 15
+  minChargeSpeedMult: 0.5
   gravityMultiplier: 1
   maxDamage: 50
   minDamage: 50
+  minChargeDamageMult: 0.5
   damageOverLife:
     serializedVersion: 2
     m_Curve:
@@ -44,9 +46,9 @@ MonoBehaviour:
     m_RotationOrder: 4
   maxLifetime: 4
   drag: 0.05
-  radius: 0.005
+  radius: 0.02
   cannotBounceOnEntity: 0
   maxBounces: 1
   bounciness: 0.6
-  explodeOnExpire: 0
+  explodeOnExpire: 1
   explosionData: {fileID: 11400000, guid: 02a6c65ba6309ea428e557877c382878, type: 2}

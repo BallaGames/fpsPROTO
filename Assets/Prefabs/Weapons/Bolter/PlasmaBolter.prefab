@@ -80,6 +80,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9165797768001435688, guid: af1a4e5e42ccf3a46ace887a3a200edd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d92a984e9412c0444bb6d9d6d1f58630, type: 2}
     - target: {fileID: -8679921383154817045, guid: af1a4e5e42ccf3a46ace887a3a200edd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -179,9 +183,15 @@ MonoBehaviour:
   - {fileID: 5949833209996982171}
   - {fileID: 2655586756499412042}
   - {fileID: 1156759166028237635}
+  applyViewLayer: 1
+  useAmmo: 0
   maxAmmo: 0
   currentAmmo: 0
   ammoPerAttack: 1
+  reloadTime: 0
+  currReloadTime: 0
+  cancelReloadOnSwitch: 1
+  isReloading: 0
   useCharge: 1
   mustChargeToFull: 1
   dumpChargeOnAttack: 0
@@ -228,6 +238,10 @@ MonoBehaviour:
   currentSpread: 0
   useSpread: 1
   useEvenSpread: 0
+  baseSpread: 1
+  crouchSpreadMult: 0.5
+  moveSpreadMult: 1.4
+  airSpreadMult: 1.6
   spreadBeforeShot: 0
   evenSpreadAmount: 0
   maxSpreadAngle: 2

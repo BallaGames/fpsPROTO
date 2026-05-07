@@ -45,7 +45,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   maxLifetime: 6
-  drag: 0
+  drag: 0.04
   radius: 0.005
   cannotBounceOnEntity: 0
   maxBounces: 0
