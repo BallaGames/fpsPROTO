@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Balla.RecoilData
   linearForceMin: {x: -0.002, y: 0.002, z: -0.06}
   linearForceMax: {x: 0.002, y: -0.002, z: -0.06}
-  angularForceMin: {x: -1, y: -0.5, z: -0.2}
-  angularForceMax: {x: -3, y: 0.5, z: 0.2}
+  angularForceMin: {x: -1, y: -0.5, z: -1}
+  angularForceMax: {x: -3, y: 0.5, z: 1}
   linearSpeed: 0
   linearSharp: 25
   angularSpeed: 3
@@ -139,7 +139,7 @@ MonoBehaviour:
   intensityClimb: 0.2
   intensityDecay: 3
   intensityDecayMult: 8
-  addPosition: 1
+  addPosition: 0
   addXPos:
     serializedVersion: 2
     m_Curve:
@@ -266,19 +266,19 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -348,6 +348,8 @@ MonoBehaviour:
   minCamPosAdd: {x: 0, y: 0, z: 0.02}
   maxCamRotAdd: {x: -0.7, y: 0.6, z: 2}
   minCamRotAdd: {x: -1, y: -0.6, z: -2}
+  aimRecoilPosMult: {x: 0.5, y: 0.5, z: 1}
+  aimRecoilRotMult: {x: 0.2, y: 0.5, z: 0.2}
   camPosSharp: 30
   camRotSharp: 16
   camPosDecay: 5

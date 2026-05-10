@@ -490,6 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   rb: {fileID: 3768126906538014519}
   capsule: {fileID: 1640293706136498278}
+  equipment: {fileID: 7200630937090898433}
   cam: {fileID: 0}
   camTargetPoint: {fileID: 8360857081853298165}
   moveState: 0
@@ -510,6 +511,7 @@ MonoBehaviour:
   maxAirJumpCount: 1
   isCrouching: 0
   currentCrouch: 0
+  aimMoveForceMult: 0.7
   crouchMoveForceMult: 0.4
   standHeadHeight: 1
   crouchShrinkFactor: 0.75
@@ -668,6 +670,7 @@ MonoBehaviour:
   camPosScale: {x: 1, y: 1, z: 1}
   camRotScale: {x: 1, y: 1, z: 1}
   isUnarmed: 0
+  aimAmount: 0
 --- !u!114 &5925812010902001671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,12 +712,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8d7f2e7ec5f6749ae845c3860ccc91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.FirstPersonFOVController
-  baseFOV: 0
+  currFOV: 80
+  addFOV: 0
+  baseFOV: 80
+  targetViewFOV: 0
+  targetWorldFOV: 0
   sprintFOVAdd: 5
   slideFOVAdd: 10
   aimFOVAdd: -20
-  fovLerpSpeed: 8
-  baseViewmodelFOV: 60
+  fovLerpSpeed: 16
+  baseViewmodelFOV: 70
   viewmodelAimFOVAdd: -10
   scalingFactor: 0.8
 --- !u!1001 &39245418187837265

@@ -4053,7 +4053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balla.RadialSlider
   fillAmount: 0
-  fillAmountID: 876
+  fillAmountID: 878
 --- !u!1001 &1793673491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4267,13 +4267,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8495589605376282113, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
-      propertyPath: baseFOV
-      value: 80
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: hasAim
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8495589605376282113, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
-      propertyPath: baseViewmodelFOV
-      value: 70
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: maxAmmo
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: useAmmo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimViewFOV
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: reloadTime
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: currentAmmo
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: idleOffset.y
+      value: -0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: idleOffset.z
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimPosition.y
+      value: -0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimPosition.z
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364452241345533107, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: aimCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954791592064832183, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
+      propertyPath: reloadTime
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 8830037989592758132, guid: c22d47dbbc96f7c42b9e995c33a5302d, type: 3}
       propertyPath: m_Name

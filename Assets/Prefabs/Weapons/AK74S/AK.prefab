@@ -103,8 +103,41 @@ MonoBehaviour:
   forcedCooling: 0
   forcedCoolTime: 0
   idleOffset: {x: 0.07, y: -0.18, z: 0.6}
-  idleRotation: {x: 0, y: 0, z: 0, w: 1}
+  idleRotation: {x: -0.006108614, y: 0, z: 0, w: 0.99998134}
   crosshairScaling: {x: 64, y: 64}
+  hasAim: 1
+  aimSpeed: 4
+  aimSpreadMultiplier: 0.1
+  aimAffectsEvenSpread: 0
+  fireModule: {fileID: 811192208411568885}
+  aimAmount: 0
+  aimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  aimViewFOV: 35
+  aimWorldFOV: 70
+  aimPosition: {x: 0.0025, y: -0.158, z: 0.6}
   muzzle: {fileID: 8684038276186870039}
   roundsPerMinute: 600
   timeBetweenRounds: 0.1
@@ -120,6 +153,7 @@ MonoBehaviour:
   muzzleEffect: {fileID: 5349631020403264566}
   recoilData: {fileID: 11400000, guid: b00cf8e3efe46b646b52d499cd0c981e, type: 2}
   currentSpread: 0
+  aimSpreadModify: 0
   useSpread: 1
   useEvenSpread: 0
   baseSpread: 1
@@ -132,7 +166,6 @@ MonoBehaviour:
   spreadDecay: 6
   spreadPerShot: 0.8
   spreadScale: {x: 1, y: 1}
-  fireModule: {fileID: 811192208411568885}
 --- !u!1001 &2611357180592709390
 PrefabInstance:
   m_ObjectHideFlags: 0
