@@ -1,2 +1,4 @@
 # fpsPrototype
-A prototype for a multiplayer fps using unity 6.2
+
+A roguelike FPS project that allows me to explore many avenues of tech animation, gameplay programming and other big parts of game development. Currently, everything in this repo is my own work.
+
