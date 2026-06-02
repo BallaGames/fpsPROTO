@@ -74,7 +74,7 @@ MonoBehaviour:
   maxAmmo: 30
   currentAmmo: 30
   ammoPerAttack: 1
-  reloadTime: 2
+  reloadTime: 1.4
   currReloadTime: 0
   cancelReloadOnSwitch: 1
   isReloading: 0
