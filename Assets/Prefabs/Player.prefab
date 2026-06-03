@@ -615,10 +615,12 @@ MonoBehaviour:
   firearmShootPoint: {fileID: 5254811763020715218}
   linearRecoilCurr: {x: 0, y: 0, z: 0}
   angularRecoilCurr: {x: 0, y: 0, z: 0}
-  recoilTransform: {fileID: 3948321935341995489}
+  recoilTransform: {fileID: 2285735950778835194}
   weaponIndex: 0
-  weapons: []
+  weapons:
+  - {fileID: 0}
   pc: {fileID: 4956680199912701787}
+  swayConfig: {fileID: 11400000, guid: acdf151f2f298024ea31d060602d35a2, type: 2}
   ability: {fileID: 0}
   recoilData: {fileID: 0}
   camRecoilTarget: {fileID: 38416450401744468}
@@ -1702,7 +1704,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Balla.HandWeighter
   lHandWeight: 0
   rHandWeight: 0
+  charRightHand: {fileID: 0}
+  weapRightHand: {fileID: 0}
+  RightHandIKTarget: {fileID: 0}
+  charLeftHand: {fileID: 0}
+  weapLeftHand: {fileID: 0}
+  leftHandIKTarget: {fileID: 0}
   weightDummyBone: {fileID: 7831196169590049146}
+--- !u!4 &2285735950778835194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7315912396021638182, guid: 2afd85e7b796d534d934ec6f57d762be, type: 3}
+  m_PrefabInstance: {fileID: 414393645945584416}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7831196169590049146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7596947773641159258, guid: 2afd85e7b796d534d934ec6f57d762be, type: 3}

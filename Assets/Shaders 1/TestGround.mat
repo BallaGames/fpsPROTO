@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 49016f8d924e8414ab45b0848eb7b05f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 2
@@ -58,12 +57,12 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
-    - _EMISSION: 1
+    - _EMISSION: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _GridSoftness: 0
-    - _GridThickness: 0.001
+    - _GridThickness: 0.005
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -74,8 +73,8 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Smoothness: 0
-    - _SphereMaskHardness: 0.18
-    - _SphereMaskRadius: 0.38
+    - _SphereMaskHardness: 0
+    - _SphereMaskRadius: 0
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -104,16 +103,16 @@ Material:
     - _subtractionMultiplier: 0
     m_Colors:
     - _BackgroundColour: {r: 0.12482198, g: 0.12883502, b: 0.14150941, a: 0}
-    - _CheckerColour1A: {r: 0, g: 0, b: 0, a: 0}
-    - _CheckerColour1B: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 0}
-    - _CheckerColour2A: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
-    - _CheckerColour2B: {r: 0, g: 0, b: 0, a: 0}
-    - _CheckerSize: {r: 100, g: 100, b: 0, a: 0}
+    - _CheckerColour1A: {r: 0.86666673, g: 0.86666673, b: 0.86666673, a: 0}
+    - _CheckerColour1B: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 0}
+    - _CheckerColour2A: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0}
+    - _CheckerColour2B: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 0}
+    - _CheckerSize: {r: 2, g: 2, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GridColour: {r: 0, g: 2, b: 1.963798, a: 0}
-    - _GridSize: {r: 0.4, g: 0.4, b: 0, a: 0}
-    - _SmallCheckerSize: {r: 150, g: 150, b: 0, a: 0}
+    - _GridColour: {r: 1.1132076, g: 1.1132076, b: 1.1132076, a: 1}
+    - _GridSize: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _SmallCheckerSize: {r: 100, g: 100, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1050888048084735713
