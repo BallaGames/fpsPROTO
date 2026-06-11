@@ -1,21 +1,21 @@
 {
   "dependencies": {
     "com.eflatun.scenereference": {
-      "version": "https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1",
+      "version": "https://github.com/starikcetin/Eflatun.SceneReference.git#5.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.settings-manager": "2.0.1",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "b849990020c30ac6ead4e4fb4881428f86dcde0d"
+      "hash": "6821c571090fc0828accced5dbd7635152c23887"
     },
     "com.mackysoft.serializereference-extensions": {
       "version": "https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git?path=Assets/MackySoft/MackySoft.SerializeReferenceExtensions",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ee6f6ce519e64f3eeb84865e52aaa23785800133"
+      "hash": "5fadcb6564f0c6e988641e2e4a4aba4b6b1caafe"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.10",
